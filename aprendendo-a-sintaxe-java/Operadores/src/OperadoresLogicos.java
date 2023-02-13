@@ -13,8 +13,38 @@
 
             //  INÍCIO RESULTADOS.
 
-                //  INÍCIO 
+                //  INÍCIO CONJUNÇÃO (E/AND - &&).
+                    System.out.println("\nCONJUNÇÃO:");
+                    System.out.println("Ambos falsos = " + (bF1 && bF2));
+                    System.out.println("Falso e Verdadeiro = " + (bF1 && bV1));
+                    System.out.println("Verdadeiro e Falso = " + (bV1 && bF1));
+                    System.out.println("Ambos verdadeiros = " + (bV1 && bV2));
+                //  FIM CONJUNÇÃO.
 
+                //  INÍCIO DISJUNÇÃO (OU/OR - ||).
+                    System.out.println("\nDISJUNÇÃO:");
+                    System.out.println("Ambos falsos = " + (bF1 || bF2));
+                    System.out.println("Falso e Verdadeiro = " + (bF1 || bV1));
+                    System.out.println("Verdadeiro e Falso = " + (bV1 || bF1));
+                    System.out.println("Ambos verdadeiros = " + (bV1 || bV2));
+                //  FIM DISJUNÇÃO
+            
+                //  INÍCIO DISJUNÇÃO EXCLUSIVA (OU EXCLUSIVO/XOR - ^).
+                    System.out.println("\nDISJUNÇÃO EXCLUSIVA:");
+                    System.out.println("Ambos falsos = " + (bF1 ^ bF2));
+                    System.out.println("Falso e Verdadeiro = " + (bF1 ^ bV1));
+                    System.out.println("Verdadeiro e Falso = " + (bV1 ^ bF1));
+                    System.out.println("Ambos verdadeiros = " + (bV1 ^ bV2));
+                //  FIM DISJUNÇÃO EXCLUSIVA.
+
+                //  INÍCIO INVERSOR (INVERSÃO/NOT - !).
+                    System.out.println("\nINVERSOR:");
+                    System.out.println("Ambos falsos = " + !(bF1 ^ !bF2));
+                    System.out.println("Falso e Verdadeiro = " + !(bF1 ^ bV1));
+                    System.out.println("Verdadeiro e Falso = " + !(bV1 ^ bF1));
+                    System.out.println("Ambos verdadeiros = " + !(bV1 ^ bV2));
+                //  FIM DISJUNÇÃO EXCLUSIVA.                
+            
             //  FIM RESULTADOS.
         }
     
