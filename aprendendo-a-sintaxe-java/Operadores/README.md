@@ -1,7 +1,8 @@
 # INFORMAÇÕES SOBRE OS ARQUIVOS.
 
 _________________________________________________________________________________________________________
-[2023.02.12] - [01:41]
+[2023.02.12] - [01:41]  
+
 TiposOperadores.java: Criado o projeto "TiposOperadores" para salvar as informações aprendidas referente ao tema.  
 Objetivo: informar os tipos de operadores e suas funções.
 
