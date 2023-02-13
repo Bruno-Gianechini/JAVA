@@ -44,7 +44,7 @@
                 - TERMINOLOGIA: E / AND.
                 - SIMBOLOGIA: &&
                 
-                - DISJUNÇÃO: Operação lógica que só é falso quando ambos os operandos forem falsos.
+                - DISJUNÇÃO: Operação lógica que só é verdadeira quando ao menos um dos operandos forem verdadeiros.
                 - TERMINOLOGIA: OU / OR.
                 - SIMBOLOGIA: ||
             
