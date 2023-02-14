@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-
+//  INÍCIO CLASSE.
 public class Ex1_NomeEIdade
 {
+    //  INÍCIO MÉTODO.
     public static void main(String[] args) 
         {
         //  INÍCIO EXERCÍCIOS.
@@ -15,11 +16,12 @@ public class Ex1_NomeEIdade
 
             //  INÍCIO VARIÁVEIS.
                 Scanner scanner = new Scanner(System.in);
-                String nome;
+                String nome = "_";
                 int idade;
             //  FIM VARIÁVEIS.
                 
-                while (true) 
+                //  INÍCIO CONTROLE DE FLUXO (WHILE).
+                    while (true) 
                     {
                         System.out.println("\nINFORMAÇÕES DE ALUNO(A): ");
                         System.out.println("Nome do aluno: ");
@@ -29,7 +31,10 @@ public class Ex1_NomeEIdade
                         System.out.println("Idade do aluno: ");
                         idade = scanner.nextInt();
                     }
-
+                //  FIM CONTROLE DE FLUXO (WHILE).
+                System.out.println("Programa finalizado!!");
         }
+    //  FIM MÉTODO.
 
 }
+//  FIM CLASSE
