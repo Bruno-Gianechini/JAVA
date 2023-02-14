@@ -1,4 +1,3 @@
-import java.text.BreakIterator;
 import java.util.Scanner;
 
 //  INÍCIO CLASSE.
@@ -22,33 +21,47 @@ import java.util.Scanner;
 
                     System.out.println("Por favor digite o nome do dia desejado: ");
                     String dia = scanner.next();
+                    int valor;
 
                     switch (dia) 
                     {
                         case "Segunda":
-                            System.out.println(2);
+                            valor = 2;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Certo");
                             break;
-                        case "Terca":                            
-                        System.out.println(3);
+                        case "Terca":
+                            valor = 3;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Certo");
                             break;
                         case "Quarta":
-                            System.out.println(4);
+                            valor = 4;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Errado");
                             break;
                         case "Quinta":
-                            System.out.println(5);
+                            valor = 5;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Talvez");
                             break;
                         case "Sexta":
-                            System.out.println(6);
+                            valor = 6;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Valor indefinido!!");
                             break;
                         case "Sabado":
-                            System.out.println(7);
+                            valor = 7;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Valor indefinido!!");
                             break;
                         case "Domingo":
-                            System.out.println(1);
+                            valor = 1;
+                            System.out.println("Valor: " + valor);
+                            System.out.println("Certo");
                             break;
-
                     }
- 
+
                 //  FIM SOLUÇÃO.
 
             //  FIM EXERCÍCIO.
