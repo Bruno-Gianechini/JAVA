@@ -40,3 +40,13 @@ Ex9_AleatoriosESucesores:
     
 Exercício finalizado com sucesso.
 ____________________________________________________________________________________________
+
+[2023.02.16] - [01:45].
+
+Ex10_ArrayMultidimensional:
+- Exercício para aplicação de matriz;
+- Classe random;
+- Repetição dentro de outra repetição.
+
+Exercício ainda não concluído.
+____________________________________________________________________________________________
