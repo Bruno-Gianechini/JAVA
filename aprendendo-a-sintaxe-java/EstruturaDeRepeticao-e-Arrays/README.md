@@ -8,7 +8,7 @@ Ex6_Fatorial.java:
 - Remoção da variável "int multiplicador", pois não foi utilizada.
 - Comentários adicionados para melhor compreensão de cada etapa do código.  
   
-- Exercício finalizado com sucesso.
+Status: Finalizado.
 ____________________________________________________________________________________________
 
 [2023.02.15] - [22:09].
@@ -17,7 +17,7 @@ Ex7_OrdemInversa:
 - Exercício para aplicação do conceito de array;
 - Estrutura de repetição (do while).
   
-Exercício finalizado com sucesso.
+Status: Finalizado.
 ____________________________________________________________________________________________
 
 [2023.02.15] - [00:05].
@@ -28,7 +28,7 @@ Ex8_VogaisEConsoantes:
 - Vetores;
 - E condicional (if-else).
   
-Exercício finalizado com sucesso.
+Status: Finalizado.
 ____________________________________________________________________________________________
 
 [2023.02.16] - [00:55].
@@ -38,7 +38,7 @@ Ex9_AleatoriosESucesores:
 - Classe random;
 - Vetores.
     
-Exercício finalizado com sucesso.
+Status: Finalizado.
 ____________________________________________________________________________________________
 
 [2023.02.16] - [01:45].
@@ -48,5 +48,5 @@ Ex10_ArrayMultidimensional:
 - Classe random;
 - Repetição dentro de outra repetição.
 
-Exercício ainda não concluído.
+Status: Em progresso.
 ____________________________________________________________________________________________
