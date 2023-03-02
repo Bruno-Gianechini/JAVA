@@ -1,6 +1,14 @@
 ## INFORMAÇÕES SOBRE ARQUIVOS.
 ____________________________________________________________________________________________
 
+[2023.03.02] - [13:15].
+
+Central.java:  
+- Arquivo criado para definir parâmetros e executar os módulos sobrecarregados criados nos arquivos "Quadrilateros_Notaveis.java" e "Quadrilateros_Notaveis_Retorno.java" 
+  
+Status: Finalizado.
+____________________________________________________________________________________________
+
 [2023.03.02] - [12:45].
 
 Quadrilateros_Notaveis.java:  
@@ -10,10 +18,10 @@ Quadrilateros_Notaveis.java:
 Status: Finalizado.
 ____________________________________________________________________________________________
 
-[2023.03.02] - [12:45].
+[2023.03.02] - [13:15].
 
-Central.java:  
-- Arquivo criado para definir parâmetros e executar os módulos sobrecarregados criados no arquivo "Quadrilateros_Notaveis.java".
+Quadrilateros_Notaveis_Retorno.java:  
+- Exercício possui a mesma função do arquivo "Quadrilateros_Notaives.java", porém os métodos agora deixaram de ser void para retornarem um valor.
   
 Status: Finalizado.
 ____________________________________________________________________________________________
