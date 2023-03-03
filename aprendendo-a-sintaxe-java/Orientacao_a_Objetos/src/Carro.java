@@ -1,9 +1,9 @@
 class Carro 
 {
     //  ATRIBUTOS.
-        String cor;
-        String modelo;
-        int capacidadeTanque;
+        private String modeloCarro;
+        private String corCarro;
+        private int capacidadeTanque;
 
     //  CONSTRUTOR SEM PARÂMETROS.
         Carro()
@@ -11,46 +11,43 @@ class Carro
 
         }
 
+    
     //  CONSTRUTOR COM PARÂMETROS.
-        Carro(String cor, String modelo, int capacidadeTanque)
+    /*    Carro(String corCarro, String modeloCarro, int capacidadeTanque)
         {
-            this.cor = cor;
-            this.modelo = modelo;
-            this.capacidadeTanque = capacidadeTanque;
+
+        }
+    */
+
+    //  MÉTODOS (GETTERS E SETTERS).
+        
+        public void setModeloCarro (String m){
+            this.modeloCarro = m;
+        }
+        public String getModeloCarro (){
+            return modeloCarro;
+        }
+        
+        public void setCorCarro (String c){
+            this.corCarro = c;
+        }
+        public String getCorCarro (){
+            return corCarro;
         }
 
-    void setCor (String cor)
-    {
-        this.cor = cor;
-    }
+        public void setCapacidadeTanque (int tanque){
+            this.capacidadeTanque = tanque;
+        }
+        public int getCapacidadeTanque(){
+            return capacidadeTanque;
+        }
 
-    String getCor()
-    {
-        return cor;
-    }
-
-    void setModelo (String modelo)
-    {
-        this.modelo = modelo;
-    }
-
-    String getModelo ()
-    {
-        return modelo;
-    }
-
-    void setCapacidadeTanque (int capacidadeTanque)
-    {
-        this.capacidadeTanque = capacidadeTanque;
-    }
-
-    int getCapacidadeTanque() 
-    {
-        return capacidadeTanque;
-    }
-
-    double totalValorTanque(double valorCombustivel)
-    {
-        return capacidadeTanque * valorCombustivel;
-    }
+    //  MÉTODOS.
+        public void info(){
+            System.out.println("\nINFORMAÇÕES DO VEÍCULO: ");
+            System.out.println("MODELO: " + getModeloCarro());
+            System.out.println("COR: " + getCorCarro());
+            System.out.println("CAPACIDADE DO TANQUE: " + getCapacidadeTanque() + "Litros.\n");
+        }
+        
 }
