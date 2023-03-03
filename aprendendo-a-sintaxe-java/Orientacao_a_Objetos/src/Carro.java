@@ -5,31 +5,33 @@ class Carro
         private String corCarro;
         private int capacidadeTanque;
 
-    //  CONSTRUTOR SEM PARÂMETROS.
+    /*  CONSTRUTOR SEM PARÂMETROS.
         Carro()
         {
 
         }
-
+    */
     
     //  CONSTRUTOR COM PARÂMETROS.
-    /*    Carro(String corCarro, String modeloCarro, int capacidadeTanque)
+        Carro(String modelo, String cor, int Tanque)
         {
-
+            setModeloCarro(modelo);
+            setCorCarro(cor);
+            setCapacidadeTanque(Tanque);
         }
-    */
+
 
     //  MÉTODOS (GETTERS E SETTERS).
         
-        public void setModeloCarro (String m){
-            this.modeloCarro = m;
+        public void setModeloCarro (String modelo){
+            this.modeloCarro = modelo;
         }
         public String getModeloCarro (){
             return modeloCarro;
         }
         
-        public void setCorCarro (String c){
-            this.corCarro = c;
+        public void setCorCarro (String cor){
+            this.corCarro = cor;
         }
         public String getCorCarro (){
             return corCarro;
