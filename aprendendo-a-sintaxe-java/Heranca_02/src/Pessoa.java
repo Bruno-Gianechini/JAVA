@@ -33,6 +33,15 @@ public class Pessoa {
         }
 
     //  MÉTODOS
-        private void fazerAniversario(){
+        public void fazerAniversario(){
+            this.idade++;
         }
+
+    //  TO STRING.
+        @Override
+        public String toString() {
+            return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+        }
+
+       
 }

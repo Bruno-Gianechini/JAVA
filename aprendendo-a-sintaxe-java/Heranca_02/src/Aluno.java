@@ -6,7 +6,7 @@ public class Aluno extends Pessoa {
 
     //  MÉTODO CONSTRUTOR.
         Aluno(){
-            
+
         }
 
     //  MÉTODOS ACESSORES (SETTERS E GETTERS).
@@ -25,7 +25,9 @@ public class Aluno extends Pessoa {
         }
 
     //  MÉTODOS ESPECÍFICOS.
-        private void cancelarMatricula(){
-
+        public void cancelarMatricula(){
+            System.out.println("Matricula será cancelada!!");
         }
+
+        
 }

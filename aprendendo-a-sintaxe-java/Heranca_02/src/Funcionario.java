@@ -25,8 +25,8 @@ public class Funcionario extends Pessoa {
         }
 
     //  MÉTODOS ESPECÍFICOS.
-        private void mudarTrabalho(){
-            
+        public void mudarTrabalho(){
+            setTrabalhando(!trabalhando);
         }
     
 }

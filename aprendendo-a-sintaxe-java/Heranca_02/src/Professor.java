@@ -2,7 +2,8 @@ public class Professor extends Pessoa {
     
     //  ATRIBUTOS ESPECÍFICOS.
         private String especialidade;
-        private boolean trabalhando;
+        private double salario;
+        private double aumento;
 
     //  MÉTODO CONSTRUTOR.
         Professor(){
@@ -17,15 +18,16 @@ public class Professor extends Pessoa {
             return especialidade;
         }
 
-        public void setTrabalhando (boolean trabalhando){
-            this.trabalhando = trabalhando;
+        public void setSalario (double salario){
+            this.salario = salario;
         }
-        public boolean getTrabalhando (){
-            return trabalhando;
+        public double getSalario (){
+            return salario;
         }
+
 
     //  MÉTODOS ESPECÍFICOS.
-        private void receberAumento(){
-
+        public void receberAumento(double aumento){
+            System.out.println("Novo salário: " + ( getSalario() + aumento ) );            
         }
 }
