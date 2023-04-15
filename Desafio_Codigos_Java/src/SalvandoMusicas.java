@@ -6,7 +6,7 @@ ENTRADA: A entrada será uma String com o nome da música e seu formato.
 
 SAÍDA: A saída deve ser se o arquivo será salvo ou não.
 
-EXEMPLO
+EXEMPLO:
 
     ENTRADA:    "Slipknot - We Are Not Your Kind.rar"
     SAÍDA:      "Deletar"
