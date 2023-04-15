@@ -1,4 +1,4 @@
-package main.java.one.digitalinnovation.model;
+package one.digitalinnovation.model;
 
 @Entity
 public class Endereco {

@@ -1,4 +1,4 @@
-package main.java.one.digitalinnovation;
+package one.digitalinnovation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

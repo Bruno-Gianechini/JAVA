@@ -1,7 +1,7 @@
-package main.java.one.digitalinnovation.model;
+package one.digitalinnovation.model;
 
-import javax.annotation.processing.Generated;
-import javax.persistence.Entity;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.ManyToOne;
 
 @Entity 
 public class Cliente {
